@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tani maju.com</title>
+</head>
+<body>
+    <h1>Input Barang</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>Nama Barang</td>
+                <td>:</td>
+                <td><input type="text" name="namaBarang"></td>
+            </tr>
+            <tr>
+                <td>Jenis Barang</td>
+                <td>:</td>
+                <td><input type="radio" value="pupuk" name="jenisBarang">Pupuk</input>
+                    <input type="radio" value="benih" name="jenisBarang">Benih</input>
+                    <input type="radio" value="alattani" name="jenisBarang">Alat Tani</input></td>
+                
+                </tr>
+            <tr>
+                <td>Subsidi ?</td>
+                <td>:</td>
+                <td><input type="radio" value="ya" name="subsidi">Ya</input>
+                    <input type="radio" value="tidak" name="subsidi">Tidak</input></td>
+            </tr>
+            <tr>
+                <td>Deskripsi Barang</td>
+                <td>:</td>
+                <td><textarea name="deskripsiBarang" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Stock barang</td>
+                <td>:</td>
+                <td><input type="number" name="stockBarang"></td>
+            </tr>
+            <tr>
+                <td>Harga Barang</td>
+                <td>:</td>
+                <td>Rp.<input type="number" name="hargaBarang"></td>
+            </tr>
+        </table>
+        <input type="button" value="simpan">
+    </form>
+</body>
+</html>

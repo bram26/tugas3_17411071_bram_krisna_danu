@@ -1,0 +1,35 @@
+*{
+    width:0;
+    margin:0;
+    font-family: Arial;
+}
+.navbar{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.navbar ul{
+    background:rgb(25, 49, 95);
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.navbar ul li{
+    float: right;
+}
+.navbar ul li:hover{
+    background: rgb(66, 63, 107);
+}
+.navbar ul li:hover a{
+    color: steelblue;
+}
+.navbar ul li a{
+    display: block;
+    padding: 20px;
+    color: teal;
+    text-decoration: none;
+}
